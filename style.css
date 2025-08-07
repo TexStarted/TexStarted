@@ -1,39 +1,99 @@
 
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background: #fff;
+    color: #222;
+    background-color: #fefefe;
 }
+
 header.hero {
-    background-color: #6f3780;
-    color: white;
-    padding: 3rem 2rem;
     text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to right, #d9f1f1, #f6f6f6);
 }
-.cta-buttons .btn {
-    background: #e94278;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    margin: 1rem;
-    text-decoration: none;
-    border-radius: 8px;
+
+.logo {
+    width: 180px;
+    margin-bottom: 1rem;
 }
-.btn.secondary {
-    background: #23afde;
+
+h1 {
+    margin: 0.5rem 0;
+    font-size: 2rem;
 }
+
 section {
     padding: 2rem;
+    text-align: center;
 }
-.news-card {
-    border: 1px solid #eee;
+
+.pitch-connect {
+    background-color: #e7f5f8;
+    border-top: 4px solid #3aa6a6;
+}
+
+.good-news .news-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.news-item {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
     padding: 1rem;
+    width: 250px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.zielgruppe-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
     margin-top: 1rem;
 }
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #f59c23;
+
+.button {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.startup-btn {
+    background: #d84d87;
     color: white;
+}
+
+.unternehmen-btn {
+    background: #4db5d8;
+    color: white;
+}
+
+.button:hover {
+    opacity: 0.85;
+}
+
+.newsletter-block {
+    background: #f3f3f3;
+}
+
+.newsletter-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.newsletter-icons div {
+    max-width: 250px;
+}
+
+.newsletter-icons img {
+    width: 80px;
+    margin-bottom: 1rem;
 }
